@@ -1,0 +1,8 @@
+verilog work "MUX32.v"
+verilog work "shAmount.v"
+verilog work "RightShifterLog.v"
+verilog work "RightShifterArith.v"
+verilog work "LeftShifter.v"
+verilog work "Shifter.v"
+verilog work "Test1.v"
+verilog work "C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v"

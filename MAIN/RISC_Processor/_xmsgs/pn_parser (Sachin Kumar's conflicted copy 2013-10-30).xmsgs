@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ALUFiles/ALU.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ALUFiles/LogicUnit.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ALUFiles/adder.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ALUFiles/bit32Adder.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ALUFiles/mux_2_1.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/Controller.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/Datapath.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/MUX4_1.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/MUX4_1_32b.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/NextAddressFiles/BranchDecider.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/NextAddressFiles/NextAddr.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/Processor.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/Reg32.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/RegFileFiles/Decoder.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/RegFileFiles/FF_32.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/RegFileFiles/MUX32.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/RegFileFiles/MUX32_1.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/RegFileFiles/RegFile.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ShifterFiles/LeftShifter.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ShifterFiles/RightShifterArith.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ShifterFiles/RightShifterLog.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ShifterFiles/Shifter.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/ShifterFiles/shAmount.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1677" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/Users/in dia/Dropbox/Coaa/Assignment 8/MAIN/RISC_Processor/SignExtender.v\&quot; into library work</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,5 @@
+verilog work "bit32Adder.v"
+verilog work "mux_2_1.v"
+verilog work "LogicUnit.v"
+verilog work "adder.v"
+verilog work "ALU.v"

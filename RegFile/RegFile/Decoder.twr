@@ -1,0 +1,250 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml Decoder.twx Decoder.ncd -o Decoder.twr Decoder.pcf
+
+Design file:              Decoder.ncd
+Physical constraint file: Decoder.pcf
+Device,package,speed:     xc3s400,pq208,-4 (PRODUCTION 1.39 2010-11-18)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+wA<0>          |FF_en<0>       |   11.636|
+wA<0>          |FF_en<1>       |   12.621|
+wA<0>          |FF_en<2>       |   11.935|
+wA<0>          |FF_en<3>       |   12.773|
+wA<0>          |FF_en<4>       |   11.842|
+wA<0>          |FF_en<5>       |   11.597|
+wA<0>          |FF_en<6>       |   11.113|
+wA<0>          |FF_en<7>       |   11.569|
+wA<0>          |FF_en<8>       |    9.945|
+wA<0>          |FF_en<9>       |   11.069|
+wA<0>          |FF_en<10>      |   11.137|
+wA<0>          |FF_en<11>      |   10.925|
+wA<0>          |FF_en<12>      |   10.416|
+wA<0>          |FF_en<13>      |   11.231|
+wA<0>          |FF_en<14>      |   10.632|
+wA<0>          |FF_en<15>      |   10.699|
+wA<0>          |FF_en<16>      |   11.352|
+wA<0>          |FF_en<17>      |   11.632|
+wA<0>          |FF_en<18>      |   11.023|
+wA<0>          |FF_en<19>      |   11.379|
+wA<0>          |FF_en<20>      |   10.922|
+wA<0>          |FF_en<21>      |   11.396|
+wA<0>          |FF_en<22>      |   10.390|
+wA<0>          |FF_en<23>      |   10.427|
+wA<0>          |FF_en<24>      |   12.331|
+wA<0>          |FF_en<25>      |   12.726|
+wA<0>          |FF_en<26>      |   11.964|
+wA<0>          |FF_en<27>      |   11.636|
+wA<0>          |FF_en<28>      |   12.055|
+wA<0>          |FF_en<29>      |   12.517|
+wA<0>          |FF_en<30>      |   11.771|
+wA<0>          |FF_en<31>      |   12.530|
+wA<1>          |FF_en<0>       |   10.716|
+wA<1>          |FF_en<1>       |   11.162|
+wA<1>          |FF_en<2>       |   10.065|
+wA<1>          |FF_en<3>       |   10.415|
+wA<1>          |FF_en<4>       |    9.852|
+wA<1>          |FF_en<5>       |   10.153|
+wA<1>          |FF_en<6>       |   10.538|
+wA<1>          |FF_en<7>       |   10.452|
+wA<1>          |FF_en<8>       |    9.982|
+wA<1>          |FF_en<9>       |   10.457|
+wA<1>          |FF_en<10>      |   10.337|
+wA<1>          |FF_en<11>      |    9.594|
+wA<1>          |FF_en<12>      |    9.496|
+wA<1>          |FF_en<13>      |    9.858|
+wA<1>          |FF_en<14>      |    9.794|
+wA<1>          |FF_en<15>      |   10.102|
+wA<1>          |FF_en<16>      |   10.113|
+wA<1>          |FF_en<17>      |   10.538|
+wA<1>          |FF_en<18>      |   10.332|
+wA<1>          |FF_en<19>      |    9.337|
+wA<1>          |FF_en<20>      |    9.803|
+wA<1>          |FF_en<21>      |   10.287|
+wA<1>          |FF_en<22>      |    8.967|
+wA<1>          |FF_en<23>      |    9.209|
+wA<1>          |FF_en<24>      |    9.640|
+wA<1>          |FF_en<25>      |   10.157|
+wA<1>          |FF_en<26>      |    9.188|
+wA<1>          |FF_en<27>      |    8.947|
+wA<1>          |FF_en<28>      |    9.503|
+wA<1>          |FF_en<29>      |    9.352|
+wA<1>          |FF_en<30>      |    9.292|
+wA<1>          |FF_en<31>      |   10.277|
+wA<2>          |FF_en<0>       |   10.626|
+wA<2>          |FF_en<1>       |   11.589|
+wA<2>          |FF_en<2>       |   10.377|
+wA<2>          |FF_en<3>       |   10.750|
+wA<2>          |FF_en<4>       |   10.206|
+wA<2>          |FF_en<5>       |   10.489|
+wA<2>          |FF_en<6>       |   10.441|
+wA<2>          |FF_en<7>       |   10.344|
+wA<2>          |FF_en<8>       |   10.178|
+wA<2>          |FF_en<9>       |   11.262|
+wA<2>          |FF_en<10>      |   10.647|
+wA<2>          |FF_en<11>      |    9.904|
+wA<2>          |FF_en<12>      |    9.727|
+wA<2>          |FF_en<13>      |   10.089|
+wA<2>          |FF_en<14>      |    9.689|
+wA<2>          |FF_en<15>      |   10.816|
+wA<2>          |FF_en<16>      |   10.126|
+wA<2>          |FF_en<17>      |   10.408|
+wA<2>          |FF_en<18>      |   10.455|
+wA<2>          |FF_en<19>      |    9.180|
+wA<2>          |FF_en<20>      |    9.774|
+wA<2>          |FF_en<21>      |   10.081|
+wA<2>          |FF_en<22>      |    9.222|
+wA<2>          |FF_en<23>      |    9.118|
+wA<2>          |FF_en<24>      |    9.114|
+wA<2>          |FF_en<25>      |   10.442|
+wA<2>          |FF_en<26>      |    8.677|
+wA<2>          |FF_en<27>      |    9.153|
+wA<2>          |FF_en<28>      |    9.361|
+wA<2>          |FF_en<29>      |    9.608|
+wA<2>          |FF_en<30>      |    9.496|
+wA<2>          |FF_en<31>      |   10.135|
+wA<3>          |FF_en<0>       |   12.550|
+wA<3>          |FF_en<1>       |   13.535|
+wA<3>          |FF_en<2>       |   12.849|
+wA<3>          |FF_en<3>       |   13.687|
+wA<3>          |FF_en<4>       |   12.756|
+wA<3>          |FF_en<5>       |   12.511|
+wA<3>          |FF_en<6>       |   12.027|
+wA<3>          |FF_en<7>       |   12.483|
+wA<3>          |FF_en<8>       |   10.858|
+wA<3>          |FF_en<9>       |   11.643|
+wA<3>          |FF_en<10>      |   12.050|
+wA<3>          |FF_en<11>      |   11.499|
+wA<3>          |FF_en<12>      |   11.329|
+wA<3>          |FF_en<13>      |   11.805|
+wA<3>          |FF_en<14>      |   11.545|
+wA<3>          |FF_en<15>      |   11.273|
+wA<3>          |FF_en<16>      |   11.549|
+wA<3>          |FF_en<17>      |   11.702|
+wA<3>          |FF_en<18>      |   11.220|
+wA<3>          |FF_en<19>      |   11.449|
+wA<3>          |FF_en<20>      |   11.119|
+wA<3>          |FF_en<21>      |   11.466|
+wA<3>          |FF_en<22>      |   10.587|
+wA<3>          |FF_en<23>      |   10.497|
+wA<3>          |FF_en<24>      |   10.794|
+wA<3>          |FF_en<25>      |   11.317|
+wA<3>          |FF_en<26>      |   10.427|
+wA<3>          |FF_en<27>      |   10.227|
+wA<3>          |FF_en<28>      |   10.518|
+wA<3>          |FF_en<29>      |   11.108|
+wA<3>          |FF_en<30>      |   10.234|
+wA<3>          |FF_en<31>      |   11.121|
+wA<4>          |FF_en<0>       |   12.500|
+wA<4>          |FF_en<1>       |   13.485|
+wA<4>          |FF_en<2>       |   12.799|
+wA<4>          |FF_en<3>       |   13.637|
+wA<4>          |FF_en<4>       |   12.706|
+wA<4>          |FF_en<5>       |   12.461|
+wA<4>          |FF_en<6>       |   11.977|
+wA<4>          |FF_en<7>       |   12.433|
+wA<4>          |FF_en<8>       |   10.808|
+wA<4>          |FF_en<9>       |   11.600|
+wA<4>          |FF_en<10>      |   12.000|
+wA<4>          |FF_en<11>      |   11.456|
+wA<4>          |FF_en<12>      |   11.279|
+wA<4>          |FF_en<13>      |   11.762|
+wA<4>          |FF_en<14>      |   11.495|
+wA<4>          |FF_en<15>      |   11.230|
+wA<4>          |FF_en<16>      |   11.253|
+wA<4>          |FF_en<17>      |   11.870|
+wA<4>          |FF_en<18>      |   10.924|
+wA<4>          |FF_en<19>      |   11.617|
+wA<4>          |FF_en<20>      |   10.823|
+wA<4>          |FF_en<21>      |   11.634|
+wA<4>          |FF_en<22>      |   10.291|
+wA<4>          |FF_en<23>      |   10.665|
+wA<4>          |FF_en<24>      |   11.194|
+wA<4>          |FF_en<25>      |   12.502|
+wA<4>          |FF_en<26>      |   10.827|
+wA<4>          |FF_en<27>      |   11.412|
+wA<4>          |FF_en<28>      |   10.918|
+wA<4>          |FF_en<29>      |   12.293|
+wA<4>          |FF_en<30>      |   10.634|
+wA<4>          |FF_en<31>      |   12.306|
+wrEn           |FF_en<0>       |   11.793|
+wrEn           |FF_en<1>       |   13.452|
+wrEn           |FF_en<2>       |   12.092|
+wrEn           |FF_en<3>       |   13.604|
+wrEn           |FF_en<4>       |   11.999|
+wrEn           |FF_en<5>       |   12.428|
+wrEn           |FF_en<6>       |   11.270|
+wrEn           |FF_en<7>       |   12.400|
+wrEn           |FF_en<8>       |   10.445|
+wrEn           |FF_en<9>       |   11.527|
+wrEn           |FF_en<10>      |   11.637|
+wrEn           |FF_en<11>      |   11.383|
+wrEn           |FF_en<12>      |   10.916|
+wrEn           |FF_en<13>      |   11.689|
+wrEn           |FF_en<14>      |   11.132|
+wrEn           |FF_en<15>      |   11.157|
+wrEn           |FF_en<16>      |   11.386|
+wrEn           |FF_en<17>      |   11.979|
+wrEn           |FF_en<18>      |   11.057|
+wrEn           |FF_en<19>      |   11.726|
+wrEn           |FF_en<20>      |   10.956|
+wrEn           |FF_en<21>      |   11.743|
+wrEn           |FF_en<22>      |   10.424|
+wrEn           |FF_en<23>      |   10.774|
+wrEn           |FF_en<24>      |   10.903|
+wrEn           |FF_en<25>      |   11.325|
+wrEn           |FF_en<26>      |   10.536|
+wrEn           |FF_en<27>      |   10.235|
+wrEn           |FF_en<28>      |   10.627|
+wrEn           |FF_en<29>      |   11.116|
+wrEn           |FF_en<30>      |   10.343|
+wrEn           |FF_en<31>      |   11.129|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Oct 09 15:56:53 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 143 MB
+
+
+

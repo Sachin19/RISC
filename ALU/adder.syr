@@ -1,0 +1,316 @@
+Release 12.4 - xst M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: adder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "adder.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "adder"
+Output Format                      : NGC
+Target Device                      : xc6vlx75t-3-ff484
+
+---- Source Options
+Top Module Name                    : adder
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file \"\Users\in dia\Dropbox\Coaa\Assignment 8\ALU\bit32Adder.v\" into library work
+Parsing module <bit32Adder>.
+Analyzing Verilog file \"\Users\in dia\Dropbox\Coaa\Assignment 8\ALU\adder.v\" into library work
+Parsing module <adder>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <adder>.
+
+Elaborating module <bit32Adder>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <adder>.
+    Related source file is "/users/in dia/dropbox/coaa/assignment 8/alu/adder.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <adder> synthesized.
+
+Synthesizing Unit <bit32Adder>.
+    Related source file is "/users/in dia/dropbox/coaa/assignment 8/alu/bit32adder.v".
+    Found 33-bit adder for signal <n0011> created at line 28.
+    Found 33-bit adder for signal <n0004> created at line 28.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <bit32Adder> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 33-bit adder                                          : 2
+# Multiplexers                                         : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 33-bit adder carry in                                 : 1
+# Multiplexers                                         : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <adder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block adder, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : adder.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 104
+#      LUT3                        : 34
+#      LUT5                        : 1
+#      LUT6                        : 5
+#      MUXCY                       : 32
+#      XORCY                       : 32
+# IO Buffers                       : 101
+#      IBUF                        : 65
+#      OBUF                        : 36
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx75tff484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   40  out of  46560     0%  
+    Number used as Logic:                40  out of  46560     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     40
+   Number with an unused Flip Flop:      40  out of     40   100%  
+   Number with an unused LUT:             0  out of     40     0%  
+   Number of fully used LUT-FF pairs:     0  out of     40     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         101
+ Number of bonded IOBs:                 101  out of    240    42%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 3.115ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 4611 / 36
+-------------------------------------------------------------------------
+Delay:               3.115ns (Levels of Logic = 8)
+  Source:            a<0> (PAD)
+  Destination:       zFlag (PAD)
+
+  Data Path: a<0> to zFlag
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.003   0.433  a_0_IBUF (a_0_IBUF)
+     LUT3:I0->O            1   0.053   0.000  add/Madd_n0004_Madd_lut<0> (add/Madd_n0004_Madd_lut<0>)
+     MUXCY:S->O            1   0.219   0.000  add/Madd_n0004_Madd_cy<0> (add/Madd_n0004_Madd_cy<0>)
+     XORCY:CI->O           2   0.180   0.599  add/Madd_n0004_Madd_xor<1> (c_1_OBUF)
+     LUT6:I0->O            1   0.053   0.592  out1 (out)
+     LUT5:I0->O            1   0.053   0.594  out2 (out1)
+     LUT6:I0->O            1   0.053   0.279  out7 (zFlag_OBUF)
+     OBUF:I->O                 0.003          zFlag_OBUF (zFlag)
+    ----------------------------------------
+    Total                      3.115ns (0.617ns logic, 2.498ns route)
+                                       (19.8% logic, 80.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.01 secs
+ 
+--> 
+
+Total memory usage is 286848 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

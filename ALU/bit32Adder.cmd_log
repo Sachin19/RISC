@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/bit32Adder.xst" -ofn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/bit32Adder.syr" 
+xst -intstyle ise -ifn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/bit32Adder.xst" -ofn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/bit32Adder.syr" 
+xst -intstyle ise -ifn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/bit32Adder.xst" -ofn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/bit32Adder.syr" 
+xst -intstyle ise -ifn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/bit32Adder.xst" -ofn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/bit32Adder.syr" 

@@ -1,0 +1,5 @@
+verilog work "MUX32.v"
+verilog work "MUX32_1.v"
+verilog work "FF_32.v"
+verilog work "Decoder.v"
+verilog work "RegFile.v"

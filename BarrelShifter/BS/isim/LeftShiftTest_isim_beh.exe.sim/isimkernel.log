@@ -1,0 +1,28 @@
+Command line:
+   LeftShiftTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55688
+
+Sun Oct 06 08:27:20 2013
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 504.373 Meg
+
+ Total Signals          : 44
+ Total Nets             : 368
+ Total Signal Drivers   : 22
+ Total Blocks           : 8
+ Total Primitive Blocks : 6
+ Total Processes        : 24
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 485
+
+ Total Simulation Time: 0.0468 sec
+
+ Current Memory Usage: 504.373 Meg
+
+Sun Oct 06 08:28:14 2013
+

@@ -1,0 +1,7 @@
+verilog work "bit32Adder.v"
+verilog work "mux_2_1.v"
+verilog work "LogicUnit.v"
+verilog work "adder.v"
+verilog work "ALU.v"
+verilog work "ALUTest.v"
+verilog work "C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v"

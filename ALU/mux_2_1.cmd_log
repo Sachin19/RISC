@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/mux_2_1.xst" -ofn "C:/Users/in dia/Dropbox/Coaa/Assignment 8/ALU/mux_2_1.syr" 

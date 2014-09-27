@@ -1,0 +1,253 @@
+Release 12.4 Map M.81d (nt64)
+Xilinx Mapping Report File for Design 'RegFile'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s1000l-ft256-4 -cm area -ir off -pr off
+-c 100 -o RegFile_map.ncd RegFile.ngd RegFile.pcf 
+Target Device  : xc3s1000l
+Target Package : ft256
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.52.76.2 $
+Mapped Date    : Mon Oct 21 15:14:34 2013
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:         1,088 out of  15,360    7%
+  Number of 4 input LUTs:             1,528 out of  15,360    9%
+Logic Distribution:
+  Number of occupied Slices:          1,287 out of   7,680   16%
+    Number of Slices containing only related logic:   1,287 out of   1,287 100%
+    Number of Slices containing unrelated logic:          0 out of   1,287   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,528 out of  15,360    9%
+  Number of bonded IOBs:                114 out of     173   65%
+  Number of BUFGMUXs:                     1 out of       8   12%
+
+Average Fanout of Non-Clock Nets:                3.23
+
+Peak Memory Usage:  248 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   3 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+
+Section 5 - Removed Logic
+-------------------------
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| reData1<0>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<1>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<2>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<3>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<4>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<5>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<6>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<7>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<8>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<9>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<10>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<11>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<12>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<13>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<14>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<15>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<16>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<17>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<18>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<19>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<20>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<21>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<22>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<23>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<24>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<25>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<26>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<27>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<28>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<29>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<30>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData1<31>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<0>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<1>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<2>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<3>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<4>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<5>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<6>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<7>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<8>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<9>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<10>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<11>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<12>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<13>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<14>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<15>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<16>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<17>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<18>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<19>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<20>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<21>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<22>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<23>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<24>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<25>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<26>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<27>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<28>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<29>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<30>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| reData2<31>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| read1Add<0>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| read1Add<1>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| read1Add<2>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| read1Add<3>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| read1Add<4>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| read2Add<0>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| read2Add<1>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| read2Add<2>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| read2Add<3>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| read2Add<4>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| readEn                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeAdd<0>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeAdd<1>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeAdd<2>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeAdd<3>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeAdd<4>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<0>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<1>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<2>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<3>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<4>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<5>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<6>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<7>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<8>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<9>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<10>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<11>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<12>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<13>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<14>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<15>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<16>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<17>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<18>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<19>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<20>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<21>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<22>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<23>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<24>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<25>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<26>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<27>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<28>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<29>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<30>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeData<31>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| writeEn                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

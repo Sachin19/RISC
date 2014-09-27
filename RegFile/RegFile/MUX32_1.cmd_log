@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/RegFile/RegFile/MUX32_1.xst" -ofn "C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/RegFile/RegFile/MUX32_1.syr" 
+xst -intstyle ise -ifn "C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/RegFile/RegFile/MUX32_1.xst" -ofn "C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/RegFile/RegFile/MUX32_1.syr" 
+xst -intstyle ise -ifn "C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/RegFile/RegFile/MUX32_1.xst" -ofn "C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/RegFile/RegFile/MUX32_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000l-ft256-4 "MUX32_1.ngc" MUX32_1.ngd  
+map -intstyle ise -p xc3s1000l-ft256-4 -cm area -ir off -pr off -c 100 -o MUX32_1_map.ncd MUX32_1.ngd MUX32_1.pcf 

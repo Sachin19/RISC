@@ -1,0 +1,29 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/Test1_isim_beh.exe -prj C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/Test1_beh.prj work.Test1 work.glbl 
+ISim M.81d (signature 0x12940baa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/MUX32.v\" into library work
+Analyzing Verilog file \"C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/shAmount.v\" into library work
+Analyzing Verilog file \"C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/RightShifterLog.v\" into library work
+Analyzing Verilog file \"C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/RightShifterArith.v\" into library work
+Analyzing Verilog file \"C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/LeftShifter.v\" into library work
+Analyzing Verilog file \"C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/Shifter.v\" into library work
+Analyzing Verilog file \"C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/Test1.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module MUX32
+Compiling module LeftShifter
+Compiling module RightShifterArith
+Compiling module RightShifterLog
+Compiling module shAmount
+Compiling module Shifter
+Compiling module Test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable C:/Users/ARPIT KUMAR/Dropbox/Coaa/Assignment 8/BarrelShifter/BS/Test1_isim_beh.exe
+Fuse Memory Usage: 18628 KB
+Fuse CPU Usage: 187 ms
